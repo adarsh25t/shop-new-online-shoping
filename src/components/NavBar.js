@@ -20,7 +20,7 @@ const Navbar = () => {
       </div>
 
       <input type="text" className="search" placeholder="search"/>
-      <div className={active ? "nav-menu active" : "nav-menu"}>
+      <div className={active ? "nav-menu actives" : "nav-menu"}>
          <input type="text" className="nav-search" placeholder="search"/>
           <button className="login">Login</button>
           <button className="cart"><span>0</span><i class="fas fa-shopping-cart"></i> Cart</button>

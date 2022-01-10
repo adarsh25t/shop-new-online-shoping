@@ -89,7 +89,7 @@
     opacity: 0;
     transition: all 1s ease;
   }
-  .active{
+  .actives{
     width: 100%;
     position: absolute;
     top: 40px;
@@ -97,6 +97,7 @@
     background-color: black;
     opacity: 1;
     left: 0px;
+    z-index: 10000;
   }
   .search{
     display: none;
