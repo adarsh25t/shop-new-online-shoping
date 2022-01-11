@@ -1,0 +1,76 @@
+.offers-wrapper{
+    display: flex;
+    height: 35vh;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.offers-wrapper .offer{
+    display: flex;
+    text-align: left;
+    width: 420px;
+    padding: 20px;
+}
+.offer div{
+    font-family: 'Poppins', sans-serif;
+}
+.offers-wrapper .offer img{
+    width: 150px;
+    height:170px;
+    object-fit: contain;
+}
+.offer h4{
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 600;
+}
+.offer h5{
+    font-size: 1.4rem;
+    color: white;
+    font-weight: 200;
+}
+.offer h1{
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+#offer-1{
+    background-image: linear-gradient(to right bottom, #ad3535, #a03543, #90384d, #7f3c53, #6c3f54, #6a3c51, #693a4f, #67374c, #752d43, #812134, #891520, #8b1102);
+}
+#offer-2{
+    background-image: linear-gradient(to right top, #ad3579, #9f428b, #8e4f98, #7b59a2, #6662a7, #4d69aa, #316fa9, #0d73a4, #00779c, #007990, #007b82, #047b73);
+}
+#offer-3{
+    background-image: linear-gradient(to right top, #ad7635, #bb653f, #c35351, #c1456a, #b34185, #964b9b, #6d56aa, #305eaf, #0063a1, #006389, #00606d, #005a54);
+}
+@media screen and (max-width:910px){
+    .offers-wrapper{
+        flex-wrap: wrap;
+        margin-bottom: 250px;
+    }
+    .offers-wrapper .offer{
+        width:350px;
+        height: 150px;
+        margin-top: 5px;
+    }
+    .offers-wrapper .offer img{
+        width: 100px;
+        height:120px;
+    }
+    .offer h4{
+        font-size: 1rem;
+    
+    }
+    .offer h5{
+        font-size: 1.1rem;
+
+    }
+    .offer h1{
+        font-size: 1.4rem;
+        color: white;
+        padding-top: 5px;
+    }
+
+}
