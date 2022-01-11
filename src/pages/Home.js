@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import Category from "../components/Category";
 import Hero from "../components/Hero";
 import Navbar from "../components/NavBar";
+import SlideItem from "../components/SlideItem";
 
 
 const Home = ()=>{
@@ -10,6 +11,8 @@ const Home = ()=>{
             <Navbar/>
             <Hero/>
             <Category/>
+            <SlideItem title={"Deals of the Day"}/>
+            <SlideItem title={"Deals of the Day"}/>
         </Fragment>
     )
 }
