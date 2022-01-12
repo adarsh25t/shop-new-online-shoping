@@ -12,3 +12,8 @@
     font-weight: 500;
     letter-spacing: 1px;
 }
+@media screen and (max-width:420px){
+    .slide-head h3{
+        font-size: .8rem;
+    }
+}

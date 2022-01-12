@@ -14,7 +14,11 @@ const Home = ()=>{
             <Category/>
             <SlideItem title={"Deals of the Day"}/>
             <SlideItem title={"Deals of the Day"}/>
+            <SlideItem title={"Deals of the Day"}/>
             <OffersCard/>
+            <SlideItem title={"Deals of the Day"}/>
+            <OffersCard/>
+            <SlideItem title={"Deals of the Day"}/>
             <SlideItem title={"Deals of the Day"}/>
             <Footer/>
         </Fragment>

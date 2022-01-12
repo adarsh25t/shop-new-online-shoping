@@ -34,9 +34,7 @@ const SlideItem = ({ title }) => {
   return (
     <Fragment>
         <SliderHead title={title}/>
-      <div className="slider">
-      {/* <h4 className="title">{title}</h4>
-       <h5 className="button">view All</h5> */}
+         <div className="slider">
         <Carousel responsive={responsive}>{Item}</Carousel>
       </div>
     </Fragment>
