@@ -1,6 +1,6 @@
 import React, { useState} from "react";
 import "./NavBar.css";
-
+import logo from "../accets/logo.png";
 
 const Navbar = () => {
   const [active, setActive] = useState(false);
@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="container">
-      <h3 className="nav-logo">shop <span>now</span></h3>
+      <img src={logo} className="nav-logo" alt="" />
       
       <div className="menu-icon" onClick={handleClick}>
         <i className={active ? "fas fa-times" : "fas fa-bars"}></i>

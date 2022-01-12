@@ -1,9 +1,6 @@
 .slider{
     height: 40vh;
-    padding-top: 8vh;
-    position: relative;
-    margin-top: 15vh;
-    margin-bottom: 15vh;
+    margin-bottom: 7vh;
 }
 .slider .title{
     font-family: 'Poppins', sans-serif;

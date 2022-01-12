@@ -4,6 +4,7 @@ import Carousel from "react-multi-carousel";
 import { DUMMY_DATAS } from "../store/DummyData";
 import Card from "./Card";
 import { Fragment } from "react";
+import SliderHead from "./SliderHead";
 
 const SlideItem = ({ title }) => {
   const responsive = {
@@ -32,10 +33,10 @@ const SlideItem = ({ title }) => {
 
   return (
     <Fragment>
-        
+        <SliderHead title={title}/>
       <div className="slider">
-      <h4 className="title">{title}</h4>
-       <h5 className="button">view All</h5>
+      {/* <h4 className="title">{title}</h4>
+       <h5 className="button">view All</h5> */}
         <Carousel responsive={responsive}>{Item}</Carousel>
       </div>
     </Fragment>
