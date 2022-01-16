@@ -9,7 +9,13 @@
     transition: all 1s;
     background-color: white;
     cursor: pointer;
-    
+    position: relative;
+}
+.heart-i{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
 }
 .card img{
     width: 150px;
@@ -41,9 +47,7 @@
     color: white;
     font-weight: 600;
 }
- .card:hover{
-    border: 1.5px solid rgb(207, 206, 206);
-} 
+
 
 
 @media screen and (max-width:910px){

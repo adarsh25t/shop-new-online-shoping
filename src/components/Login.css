@@ -1,0 +1,56 @@
+.login{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100vh;
+    background-color: rgba(56, 56, 56, 0.596);
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.login-right{
+    width: 45%;
+    height: 100%;
+}
+.input-text-field{
+    display: flex;
+    flex-direction: column;
+}
+.login-container{
+    position: relative;
+    animation: login-inactive 1.2s linear;
+}
+.login-active{
+    position: relative;
+    animation: login-active 1.2s linear;
+}
+.login-active i{
+    position: absolute;
+    right: -30px;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+@keyframes login-active{
+   0%{
+       top: -300px;
+   }
+   50%{
+    top: 0px;
+   }
+   100%{
+       top: -50px;
+   }
+}
+
+@keyframes login-inactive{
+    from {top: 0px; }
+    to {top: -700px; }
+
+
+ }

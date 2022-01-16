@@ -1,13 +1,15 @@
 import React, { useState} from "react";
 import "./NavBar.css";
-import logo from "../accets/logo.png";
+import logo from "../utilities/logo.png";
 import Button from '@mui/material/Button';
+import Login from "./Login";
 
 
 
 
-const Navbar = () => {
+const Navbar = ({setlogin}) => {
   const [active, setActive] = useState(false);
+  const [login,setLogin] = useState(false)
 
   const style = {
     backgroundColor: "white",
@@ -17,6 +19,10 @@ const Navbar = () => {
   const handleClick = () => {
     setActive(!active);
   };
+
+  const loginShowHandler = ()=>{
+    setlogin(true);
+  }
  
   return (
     <nav className="navbar">
@@ -30,7 +36,7 @@ const Navbar = () => {
       <input type="text" className="search" placeholder="search"/>
       <div className={active ? "nav-menu actives" : "nav-menu"}>
          <input type="text" className="nav-search" placeholder="search"/>
-          <Button variant="contained" color="primary" style={style}>Login</Button>
+          <Button variant="contained" color="primary" style={style} onClick={loginShowHandler}>Login</Button>
           <h4 className="cart"><span>0</span><i class="fas fa-shopping-cart"></i> Cart</h4>
       </div>
       </div>
