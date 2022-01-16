@@ -1,11 +1,18 @@
 import "./Login.css";
 import RegisterForm from "../components/RegisterForm";
+import { useDispatch, useSelector } from "react-redux";
+import { loginPageActions } from "../store/ReduxStore/LoginPageSlice";
 
-const Login = ({login,setLogin})=>{
+const Login = ()=>{
+    const dispatch = useDispatch();
 
-   const closeLoginHandler = ()=>{
-    setLogin(false)
+    const closeLoginHandler = ()=>{
+        dispatch(loginPageActions.loginPageClose())
     }
+    
+    const login = useSelector(state=>{
+       return state.login.show
+    })
 
     return(
         <div className="login" onClick={closeLoginHandler}>

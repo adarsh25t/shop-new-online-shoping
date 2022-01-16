@@ -41,16 +41,13 @@
        top: -300px;
    }
    50%{
-    top: 0px;
+    top: 100px;
+   }
+   75%{
+       top: -50px;
    }
    100%{
-       top: -50px;
+       top: 0px;
    }
 }
 
-@keyframes login-inactive{
-    from {top: 0px; }
-    to {top: -700px; }
-
-
- }

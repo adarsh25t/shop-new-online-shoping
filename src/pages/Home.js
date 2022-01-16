@@ -6,18 +6,21 @@ import OffersCard from "../components/OffersCard";
 import SlideItem from "../components/SlideItem";
 import Footer from "../components/Footer";
 import Login from "../components/Login";
+import { useSelector } from "react-redux";
 
 const Home = ()=>{
 
-    const [login,setlogin] = useState(false);
+    const login = useSelector((state)=>{
+        return state.login.show
+    })
 
     return(
         <Fragment>
-            <Navbar setlogin={setlogin}/>
+            <Navbar />
             <Hero/>
             <Category/>
             <SlideItem title={"Deals of the Day"}/>
-            { login ? <Login setLogin={setlogin} login={login}/> :
+            { login ? <Login/> :
             <main>
             <SlideItem title={"Deals of the Day"}/>
             <SlideItem title={"Deals of the Day"}/>

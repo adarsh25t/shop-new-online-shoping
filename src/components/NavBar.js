@@ -2,14 +2,13 @@ import React, { useState} from "react";
 import "./NavBar.css";
 import logo from "../utilities/logo.png";
 import Button from '@mui/material/Button';
-import Login from "./Login";
-
-
-
+import { useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
+import { loginPageActions } from "../store/ReduxStore/LoginPageSlice";
 
 const Navbar = ({setlogin}) => {
   const [active, setActive] = useState(false);
-  const [login,setLogin] = useState(false)
+  const dispatch = useDispatch();
 
   const style = {
     backgroundColor: "white",
@@ -21,8 +20,9 @@ const Navbar = ({setlogin}) => {
   };
 
   const loginShowHandler = ()=>{
-    setlogin(true);
+    dispatch(loginPageActions.loginPageShow())
   }
+
  
   return (
     <nav className="navbar">
