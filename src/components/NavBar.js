@@ -5,6 +5,7 @@ import Button from '@mui/material/Button';
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import { loginPageActions } from "../store/ReduxStore/LoginPageSlice";
+import { NavLink } from "react-router-dom";
 
 const Navbar = ({setlogin}) => {
   const [active, setActive] = useState(false);
@@ -27,8 +28,7 @@ const Navbar = ({setlogin}) => {
   return (
     <nav className="navbar">
       <div className="container">
-      <img src={logo} className="nav-logo" alt="" />
-      
+      <NavLink to={"/"}><img src={logo} className="nav-logo" alt="" /></NavLink>
       <div className="menu-icon" onClick={handleClick}>
         <i className={active ? "fas fa-times" : "fas fa-bars"}></i>
       </div>
@@ -37,7 +37,7 @@ const Navbar = ({setlogin}) => {
       <div className={active ? "nav-menu actives" : "nav-menu"}>
          <input type="text" className="nav-search" placeholder="search"/>
           <Button variant="contained" color="primary" style={style} onClick={loginShowHandler}>Login</Button>
-          <h4 className="cart"><span>0</span><i class="fas fa-shopping-cart"></i> Cart</h4>
+          <NavLink to={"/cart"}><h4 className="cart"><span>0</span><i class="fas fa-shopping-cart"></i> Cart</h4></NavLink>
       </div>
       </div>
     </nav>
