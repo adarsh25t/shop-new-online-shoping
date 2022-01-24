@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import Homes from "./pages/Homes";
 import Mobile from "./pages/Mobile";
 import Offers from "./pages/Offers";
+import ViewDetails from "./pages/ViewDetails";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
                 <Route path="/appliances" component={Appliances}/>
                 <Route path="/homes" component={Homes}/>
                 <Route path="/cart" component={Cart}/>
+                <Route path="/viewdetails" component={ViewDetails}/>
             </Switch>
         </BrowserRouter>
     </div>
