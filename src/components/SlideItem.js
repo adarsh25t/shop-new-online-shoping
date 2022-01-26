@@ -34,10 +34,12 @@ const SlideItem = ({ title }) => {
 
   return (
     <Fragment>
+        <div className="slide-wrapper">
         <SliderHead title={title}/>
          <div className="slider">
         <Carousel responsive={responsive}>{Item}</Carousel>
       </div>
+        </div>
     </Fragment>
   );
 };

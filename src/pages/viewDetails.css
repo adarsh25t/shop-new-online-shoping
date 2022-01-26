@@ -1,0 +1,6 @@
+.view-product{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding-left: 100px;
+}

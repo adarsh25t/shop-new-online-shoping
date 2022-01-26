@@ -1,0 +1,28 @@
+.p-content-container{
+    margin-top: 50px;
+    padding-left: 100px;
+}
+.p-title-content{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    font-family: 'Poppins', sans-serif;
+}
+.p-title-content h4{
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 4px;
+}
+.p-title-content span{
+    background-color: rgb(34, 107, 34);
+    padding:  3px 5px;
+    border-radius: 4px;
+    font-size: .9rem;
+    color: white;
+    font-weight: 600;
+    width: 50px;
+}
+.p-title-content h5{
+    font-size: 27px;
+    padding-top: 8px;
+}

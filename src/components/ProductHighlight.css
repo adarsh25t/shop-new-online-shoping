@@ -1,0 +1,15 @@
+.hightlights{
+    display: flex;
+    margin-top: 20px;
+}
+.hightlights span{
+    color: rgb(168, 168, 168);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    padding-right: 30px;
+}
+.hightlights ul li{
+    text-align: start;
+    color: rgb(32, 31, 31);
+}

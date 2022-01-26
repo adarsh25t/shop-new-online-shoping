@@ -1,20 +1,23 @@
 .p-images{
-    max-width: 500px;
+    width: 500px;
     display: flex;
-    justify-content: space-between;
-    padding: 40px;
+    justify-content: center;
+    padding: 20px 0px 0px 0px;
 }
 .p-images-list{
     display: flex;
     flex-direction: column;
 }
 .p-images-item{
-    border: 2px solid rgb(172, 170, 170);
+    border: 1px solid rgb(231, 231, 231);
     padding: 10px;
     margin-bottom: 5px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.301);
 }
 .p-images-item img{
-    width: 40px;
+    width: 30px;
+    height: 40px;
+    object-fit: contain;
 }
 .p-show-image{
     width: 400px;
@@ -22,14 +25,23 @@
     border: 1px solid rgba(172, 170, 170, 0.486);
     padding: 10px;
     margin-left: 40px;
+    position: relative;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.301);
 }
-.activeimage{
-    border: 1px solid rgb(0, 71, 112)
+.p-show-image .fa-heart{
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.301);
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 15px;
 }
+
 .p-show-image img{
-    width: 150px;
+    width: 300px;
     height: 300px;
     object-fit: contain;
+    transition: 1s;
 }
 .p-btns button{
     border: none;
@@ -40,6 +52,7 @@
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.301);
 }
 .p-btns .p-cart{
     background-color: orangered;
