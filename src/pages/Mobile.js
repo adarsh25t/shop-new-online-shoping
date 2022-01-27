@@ -1,25 +1,38 @@
-import { useSelector } from "react-redux";
+import { Fragment } from "react";
 import Card from "../components/Card";
+import Category from "../components/Category";
+import Footer from "../components/Footer";
+import Navbar from "../components/NavBar";
+import OffersCard from "../components/OffersCard";
+import OfferSection from "../components/OfferSection";
+import { DUMMY_DATAS } from "../store/DummyData";
 import "./mobile.css";
+
 
 const Mobile = ()=>{
 
-   const product = useSelector((state)=>{
-        return state.product.products;
-    })
-
-    
-
-  const items = product.map((item)=>{
+    const items = DUMMY_DATAS.filter((item)=>{
+        return item.category === "mobile"
+    }).map(item=>{
         return(
-            <Card items={item}/>
+            <Card items={item} btns={true}/>
         )
     })
 
     return(
-        <div className="v-product">
-            {items}
-        </div>
+        <Fragment>
+            <Navbar/>
+            <Category/>
+            <OffersCard/>
+            <div className="v-product">
+                {items}
+            </div>
+            <OfferSection/>
+            <div className="v-product">
+                {items}
+            </div>
+            <Footer/>
+        </Fragment>
     )
 }
 export default Mobile;

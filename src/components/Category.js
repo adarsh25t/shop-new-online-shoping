@@ -1,20 +1,8 @@
-import { useContext } from "react";
-import { useDispatch } from "react-redux";
-import { useHistory } from "react-router-dom";
 import { NavLink } from "react-router-dom";
-import { productActions } from "../store/ReduxStore/CategorySlice";
 import "./Category.css";
                      
 
 const Category = ()=>{
-
-    const dispatch = useDispatch();
-    const history = useHistory();
-
-    const CategoryHandler = (category)=>{
-       dispatch(productActions.showProducts(category))
-        history.push("/mobile");
-    }
 
     return(
         <div className="category-wrapper">
@@ -25,12 +13,12 @@ const Category = ()=>{
                 <h3>Top Offers</h3>
             </div>
             </NavLink>
-            
-            <div className="category-item" onClick={()=>CategoryHandler("mobile")}> 
+            <NavLink to={"/mobile"}>
+            <div className="category-item"> 
                 <img src="https://rukminim1.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100" alt="" />
                 <h3>Mobiles</h3>
             </div>
-           
+            </NavLink>
             <NavLink to={"/electronics"}>
             <div className="category-item">
                 <img src="https://rukminim1.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100" alt="" />

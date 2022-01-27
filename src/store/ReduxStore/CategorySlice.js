@@ -1,10 +1,9 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { PRODUCTS } from "../DummyData";
+import { DUMMY_DATAS } from "../DummyData";
 
 const initialState={
     products:[]
 }
-
 
 
 const CategorySlice = createSlice({
@@ -12,11 +11,13 @@ const CategorySlice = createSlice({
     initialState,
     reducers:{
         showProducts(state,action){
-            PRODUCTS.filter(proId=>{
+            DUMMY_DATAS.filter(proId=>{
                 return proId.category === action.payload
             }).map((product,index)=>{
                 state.products.push(product)
-        })   }
+            }) 
+        }
+
     }
 })
 
