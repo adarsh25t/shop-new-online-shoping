@@ -1,4 +1,4 @@
-import { Fragment, useState } from "react";
+import { Fragment } from "react";
 import Category from "../components/Category";
 import Hero from "../components/Hero";
 import Navbar from "../components/NavBar";
@@ -18,7 +18,7 @@ const Home = ()=>{
         <Fragment>
             <Navbar />
             <Hero/>
-            <Category/>
+            <Category />
             <SlideItem title={"Deals of the Day"}/>
             { login ? <Login/> :
             <main>

@@ -5,9 +5,9 @@ const Hero = ()=>{
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src=""/>
+      <img class="d-block w-100" alt="hero1"/>
       <div className="description">
-          <img src="https://rukminim1.flixcart.com/image/416/416/ksnjp8w0/mobile/k/o/m/c21y-rmx3261-realme-original-imag65kcytrk8dtr.jpeg?q=70" alt="" />
+          <img src="https://rukminim1.flixcart.com/image/416/416/ksnjp8w0/mobile/k/o/m/c21y-rmx3261-realme-original-imag65kcytrk8dtr.jpeg?q=70" alt="hero1" />
           <div className="content">
                 <h4 className="text-title">realme C21Y (64 GB)</h4>
                 <h5 className="offeres">Triple Cam | 5000mAh</h5>
@@ -16,7 +16,7 @@ const Hero = ()=>{
         </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="" />
+      <img class="d-block w-100" alt="hero2" />
       <div className="description">
           <img src="https://rukminim1.flixcart.com/image/416/416/ky0g58w0/mobile/l/t/p/-original-imagabvqsbvzzzfy.jpeg?q=70" alt="" />
           <div className="content">
@@ -28,7 +28,7 @@ const Hero = ()=>{
       </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src=""/>
+      <img class="d-block w-100" alt="hero3"/>
       <div className="description">
           <img src="https://rukminim1.flixcart.com/image/800/960/k5bcscw0pkrrdj/jacket/d/g/z/free-black-kjk01-s-banjara-india-original-imafeswne5csx2th.jpeg?q=50" alt="" />
           <div className="content">

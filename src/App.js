@@ -10,6 +10,7 @@ import Mobile from "./pages/Mobile";
 import Offers from "./pages/Offers";
 import ViewDetails from "./pages/ViewDetails";
 
+
 function App() {
   return (
     <div className="App">

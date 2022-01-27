@@ -204,7 +204,7 @@ const PRODUCTS = [
         color:"black"
     },
     {
-        id:11,
+        id:12,
         category:"mobile",
         name: "realme Narzo 50A (Oxygen Blue, 64 GB)",
         image: "https://rukminim1.flixcart.com/image/312/312/ktx9si80/mobile/d/n/p/narzo-50a-rmx3430-realme-original-imag75kymngzyabx.jpeg?q=70",
@@ -249,7 +249,7 @@ const PRODUCTS = [
         color:"black"
     },
     {
-        id:11,
+        id:13,
         category:"mobile",
         name: "realme Narzo 50A (Oxygen Blue, 64 GB)",
         image: "https://rukminim1.flixcart.com/image/312/312/ktx9si80/mobile/d/n/p/narzo-50a-rmx3430-realme-original-imag75kymngzyabx.jpeg?q=70",
@@ -294,7 +294,7 @@ const PRODUCTS = [
         color:"black"
     },
     {
-        id:11,
+        id:14,
         category:"mobile",
         name: "realme Narzo 50A (Oxygen Blue, 64 GB)",
         image: "https://rukminim1.flixcart.com/image/312/312/ktx9si80/mobile/d/n/p/narzo-50a-rmx3430-realme-original-imag75kymngzyabx.jpeg?q=70",
@@ -339,7 +339,7 @@ const PRODUCTS = [
         color:"black"
     },
     {
-        id:11,
+        id:15,
         category:"mobile",
         name: "realme Narzo 50A (Oxygen Blue, 64 GB)",
         image: "https://rukminim1.flixcart.com/image/312/312/ktx9si80/mobile/d/n/p/narzo-50a-rmx3430-realme-original-imag75kymngzyabx.jpeg?q=70",
@@ -381,6 +381,86 @@ const PRODUCTS = [
             }
         ],
         storage:64,
+        color:"black"
+    },
+    {
+        id:12,
+        category:"Tshirt",
+        name: "Solid Men Hooded Neck Black T-Shirt",
+        image: "https://rukminim1.flixcart.com/image/474/569/kjuby4w0/t-shirt/2/v/a/3xl-t2-seven-rocks-original-imafzbptgchwstcx.jpeg?q=50",
+        price:359,
+        custom_rate:4.1,
+        images:[
+            {
+                id:121,
+                url:"https://rukminim1.flixcart.com/image/800/960/kjuby4w0/t-shirt/2/v/a/3xl-t2-seven-rocks-original-imafzbptgchwstcx.jpeg?q=50"
+            },
+            {
+                id:122,
+                url:"https://rukminim1.flixcart.com/image/800/960/kdakakw0/t-shirt/5/s/h/xl-t2-blrd04-seven-rocks-original-imafu8c6evhg76mj.jpeg?q=50"
+            },
+            {
+                id:123,
+                url:"https://rukminim1.flixcart.com/image/800/960/ke4kjgw0-0/t-shirt/5/f/m/l-t2-blrd-f1-seven-rocks-original-imafuvhgt8mdqcyh.jpeg?q=50",
+            }
+        ],
+        highligit:[
+            {
+                title:"64 GB ROM"
+            },
+            {
+                title:"11.94 cm (4.7 inch) Retina HD Display"
+            },
+            {
+                title:"12MP Rear Camera | 7MP Front Camera"
+            },
+            {
+                title:"A13 Bionic Chip with 3rd Gen Neural Engine Processor"
+            },
+            {
+                title:"Water and Dust Resistant (1 meter for Upto 30 minutes, IP67)"
+            }
+        ],
+        color:"black"
+    },
+    {
+        id:12,
+        category:"Tshirt",
+        name: "Solid Men Hooded Neck Black T-Shirt",
+        image: "https://rukminim1.flixcart.com/image/474/569/kjuby4w0/t-shirt/2/v/a/3xl-t2-seven-rocks-original-imafzbptgchwstcx.jpeg?q=50",
+        price:359,
+        custom_rate:4.1,
+        images:[
+            {
+                id:121,
+                url:"https://rukminim1.flixcart.com/image/800/960/kjuby4w0/t-shirt/2/v/a/3xl-t2-seven-rocks-original-imafzbptgchwstcx.jpeg?q=50"
+            },
+            {
+                id:122,
+                url:"https://rukminim1.flixcart.com/image/800/960/kdakakw0/t-shirt/5/s/h/xl-t2-blrd04-seven-rocks-original-imafu8c6evhg76mj.jpeg?q=50"
+            },
+            {
+                id:123,
+                url:"https://rukminim1.flixcart.com/image/800/960/ke4kjgw0-0/t-shirt/5/f/m/l-t2-blrd-f1-seven-rocks-original-imafuvhgt8mdqcyh.jpeg?q=50",
+            }
+        ],
+        highligit:[
+            {
+                title:"64 GB ROM"
+            },
+            {
+                title:"11.94 cm (4.7 inch) Retina HD Display"
+            },
+            {
+                title:"12MP Rear Camera | 7MP Front Camera"
+            },
+            {
+                title:"A13 Bionic Chip with 3rd Gen Neural Engine Processor"
+            },
+            {
+                title:"Water and Dust Resistant (1 meter for Upto 30 minutes, IP67)"
+            }
+        ],
         color:"black"
     }
 ]
@@ -390,4 +470,4 @@ const PRODUCTS = [
 
 
 
-export {DUMMY_DATAS,PRODUCTS};
+export {DUMMY_DATAS, PRODUCTS};

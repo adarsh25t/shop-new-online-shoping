@@ -2,7 +2,6 @@ import React, { useState} from "react";
 import "./NavBar.css";
 import logo from "../utilities/logo.png";
 import Button from '@mui/material/Button';
-import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import { loginPageActions } from "../store/ReduxStore/LoginPageSlice";
 import { NavLink } from "react-router-dom";

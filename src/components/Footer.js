@@ -7,23 +7,23 @@ const Footer = ()=>{
             <div className="footer">
             <ul>
                 <li className="footer-title">CONTACT INFORMATION</li>
-                <li><a href="">shop now Private Limited</a></li>
-                <li><a href="">+91 9087 9809 90</a></li>
-                <li><a href="">0448 890 38393 </a></li>
+                <li><a href="https://www.flipkart.com/">shop now Private Limited</a></li>
+                <li><a href="https://www.flipkart.com/">+91 9087 9809 90</a></li>
+                <li><a href="https://www.flipkart.com/">0448 890 38393 </a></li>
             </ul>
 
             <ul>
                 <li className="footer-title">CUSTOMER SUPPORT</li>
-                <li><a href="">Frequent Questions</a></li>
-                <li><a href="">Shipping & Return</a></li>
-                <li><a href="">Contact Us</a></li>
+                <li><a href="https://www.flipkart.com/">Frequent Questions</a></li>
+                <li><a href="https://www.flipkart.com/">Shipping & Return</a></li>
+                <li><a href="https://www.flipkart.com/">Contact Us</a></li>
             </ul>
 
             <ul>
                 <li className="footer-title">LECAL WARNING</li>
-                <li><a href="">Terms of use</a></li>
-                <li><a href="">Condition of contrat</a></li>
-                <li><a href="">Contact Us</a></li>
+                <li><a href="https://www.flipkart.com/">Terms of use</a></li>
+                <li><a href="https://www.flipkart.com/">Condition of contrat</a></li>
+                <li><a href="https://www.flipkart.com/">Contact Us</a></li>
             </ul>
 
             <ul>
@@ -55,7 +55,7 @@ const Footer = ()=>{
             <i class="fab fa-atlassian"></i>
         </div>
         <div className="onwer">
-            <h5>copyright © 2022. created by <a href="">ADARSH .T</a></h5>
+            <h5>copyright © 2022. created by <a href="https://www.flipkart.com/">ADARSH .T</a></h5>
         </div>
         </div>
        </Fragment>

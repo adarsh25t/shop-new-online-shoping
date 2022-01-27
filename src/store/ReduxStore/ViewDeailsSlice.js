@@ -10,7 +10,7 @@ const viewProduct = createSlice({
     initialState,
     reducers:{
         addProduct(state,action){
-            DUMMY_DATAS.filter((itemId)=>{
+            DUMMY_DATAS.filter(itemId=>{
                 if(itemId.id === action.payload){
                     state.product = itemId
                 }   

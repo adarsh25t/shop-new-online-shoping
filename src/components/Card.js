@@ -1,4 +1,3 @@
-import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
 import { viewProductAction } from "../store/ReduxStore/ViewDeailsSlice";
@@ -11,7 +10,7 @@ const Card = ({items})=>{
 
     const viewProduct = (itemId)=>{
         dispatch(viewProductAction.addProduct(itemId))
-       history.push("/viewdetails")
+        history.push("/viewdetails")
     }
 
   

@@ -29,7 +29,7 @@ const SlideItem = ({ title }) => {
 
  
   const Item = DUMMY_DATAS.map((items) => {
-    return <Card items={items} />;
+    return <Card items={items}/>;
   });
 
   return (
