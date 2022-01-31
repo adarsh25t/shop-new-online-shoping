@@ -5,14 +5,10 @@ import Navbar from "../components/NavBar";
 import OffersCard from "../components/OffersCard";
 import SlideItem from "../components/SlideItem";
 import Footer from "../components/Footer";
-import Login from "../components/Login";
-import { useSelector } from "react-redux";
 
 const Home = ()=>{
 
-    const login = useSelector((state)=>{
-        return state.login.show
-    })
+    
 
     return(
         <Fragment>
@@ -20,7 +16,6 @@ const Home = ()=>{
             <Hero/>
             <Category />
             <SlideItem title={"Deals of the Day"}/>
-            { login ? <Login/> :
             <main>
             <SlideItem title={"Deals of the Day"}/>
             <SlideItem title={"Deals of the Day"}/>
@@ -30,7 +25,7 @@ const Home = ()=>{
             <SlideItem title={"Deals of the Day"}/>
             <SlideItem title={"Deals of the Day"}/>
             <Footer/>
-            </main>}
+            </main>
         </Fragment>
     )
 }

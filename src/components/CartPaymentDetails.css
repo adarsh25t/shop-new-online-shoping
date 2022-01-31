@@ -1,0 +1,72 @@
+.cart-payment-details{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+    width: 40%;
+    position: sticky;
+    right: 50px;
+    height: 60vh;
+    margin-top: 20px;
+    padding: 30px;
+}
+.price-title{
+    text-align: left;
+    position: relative;
+    padding-bottom: 15px;
+    color: rgb(107, 107, 107);
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.price-title::after{
+    content: '';
+    height: 1px;
+    width: 118%;
+    background-color: rgba(146, 145, 145, 0.404);
+    position: absolute;
+    left: -30px;
+    bottom: 0;
+}
+.cart-payment-details .price-item{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px 0px;
+}
+.cart-payment-details .price-item span{
+    font-size: 17px;
+}
+.cart-payment-details .price-item span:last-child{
+    font-weight: 600;
+}
+.price-total-amount{
+    position: relative;
+
+}
+.price-total-amount::before{
+    content: '';
+    height: 1px;
+    width: 118%;
+    background-color: rgba(146, 145, 145, 0.404);
+    position: absolute;
+    left: -30px;
+    top: 0;
+}
+.price-total-amount::after{
+    content: '';
+    height: 1px;
+    width: 118%;
+    background-color: rgba(146, 145, 145, 0.404);
+    position: absolute;
+    left: -30px;
+    bottom: 0;
+}
+.price-total-amount span{
+    font-weight: 700;
+}
+.cart-payment-footer{
+    padding-top: 20px;
+    color: rgba(146, 145, 145, 0.973);
+    font-weight: 700;
+}
+.price-green{
+    color: rgb(7, 168, 7);
+    font-weight: 300;
+}
