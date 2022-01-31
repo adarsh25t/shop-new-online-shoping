@@ -15,10 +15,15 @@ function Wishlist() {
                 <CartItem/>
             </div>
             <div className="wishlist-profile">
-                <img src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/profile-pic-male_4811a1.svg" alt="" />
-                <div className="wishlist-profile-content">
-                    <span>Hello,</span>
-                    <span>ADARSH T</span>
+                <div className="wish-profile-head">
+                    <img src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/profile-pic-male_4811a1.svg" alt="" />
+                    <div className="wishlist-profile-content">
+                        <span>Hello,</span>
+                        <span>ADARSH T</span>
+                    </div>
+                </div>
+                <div className="wishlist-profile-body">
+                    
                 </div>
             </div>
             </div>
